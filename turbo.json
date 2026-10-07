@@ -9,6 +9,15 @@
         "dist/**"
       ]
     },
+    "tauri:dev": {
+      "cache": false,
+      "persistent": true,
+      "dependsOn": ["^build"]
+    },
+    "tauri:build": {
+      "dependsOn": ["^build"],
+      "outputs": ["src-tauri/target/release/bundle/**"]
+    },
     "test": {
       "dependsOn": [
         "^build"

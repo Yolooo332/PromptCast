@@ -4,7 +4,7 @@ status: active
 updated: 2026-10-07
 objective: "Prove record region -> Capture Bundle -> context -> provider -> response."
 tasks:
-  - {id: M0-001, title: "Bootstrap pnpm/Turborepo/Tauri/Vue workspace", status: todo}
+  - {id: M0-001, title: "Bootstrap pnpm/Turborepo/Tauri/Vue workspace", status: done}
   - {id: M0-002, title: "Implement platform capture interface", status: todo, depends_on: [M0-001]}
   - {id: M0-003, title: "Prove region recording on first platform", status: todo, depends_on: [M0-002]}
   - {id: M0-004, title: "Persist recording and Capture Bundle manifest", status: todo, depends_on: [M0-003]}

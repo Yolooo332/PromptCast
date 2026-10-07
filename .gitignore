@@ -10,3 +10,7 @@ target/
 *.wav
 captures/
 .DS_Store
+
+# Tauri
+**/src-tauri/target/
+**/src-tauri/gen/
