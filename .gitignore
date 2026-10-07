@@ -1,0 +1,12 @@
+node_modules/
+dist/
+target/
+.turbo/
+.env
+.env.*
+!.env.example
+*.mp4
+*.m4a
+*.wav
+captures/
+.DS_Store

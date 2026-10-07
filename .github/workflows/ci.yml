@@ -1,0 +1,9 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  repo-sanity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify canonical context
+        run: test -f AGENTS.md && test -f tasks/current.yaml && test -f specs/capture-bundle.schema.json
